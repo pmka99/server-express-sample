@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <form action="/contact-us" method="POST">
+        <input name="_method" value="POST" type="hidden">
+        <label for="t1">POST method</label>
+        <input type="text" name="t1" id="t1">
+        <button type="submit">submit</button>
+    </form>
+    <hr />
+    <form action="/contact-us" method="POST">
+        <input name="_method" value="DELETE" type="hidden">
+        <label for="t2">DELETE method</label>
+        <input type="text" name="t2" id="t2">
+        <button type="submit">submit</button>
+    </form>
+    <hr>
+    <h3>Site</h3>
+</body> 
+</html>
